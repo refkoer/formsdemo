@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>forms</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<form action="https://formspree.io/refkoer@yahoo.com" method="post">
+	<div>
+		<label for="name">Name</label>
+		<input id="name" required>
+	</div>
+
+	<div>
+		<label for="email">Email</label>
+		<input id="email" type="email" name="email" required placeholder="emoil">
+	</div>
+
+	<div>
+		<label for="subject">And I need you more</label>
+		<select id="subject" name="_subject">
+			<option>--</option>
+			<option>Tonight</option>
+			<option>Than ever</option>
+		</select>
+	</div>
+
+	<fieldset>
+		<legend>Every now and then</legend>
+		<input id="meh" type="radio" name="pepe">
+		<label for="meh">I get a little bit lonely</label>
+		
+		<input id="meh" type="radio" name="pepe">
+		<label for="">I get a little bit terrified</label>			
+		
+		<input id="meh" type="radio" name="pepe">
+		<label for="meh">A little bit tired</label>
+		
+		<input id="meh" type="radio" name="pepe">
+		<label for="meh">A little bit nervous</label>
+	</fieldset>
+
+	<div>
+		<label for="message">Messgae</label>
+		<textarea id="message" name="message"></textarea>
+	</div>
+
+	<div>
+		<button typ="submit">Turn around</button>
+	</div>
+
+
+</form>
+
+</body>
+</html>
